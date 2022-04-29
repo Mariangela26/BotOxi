@@ -31,13 +31,13 @@ public class AgregarActivity extends AppCompatActivity {
         FragmentTransaction transaction=getSupportFragmentManager().beginTransaction();
 
         switch (info){
-            case " Botella":
+            case "Botella":
                 transaction.add(R.id.contFragmets, fragmentBotella);
                 break;
-            case " Cliente":
+            case "Cliente":
                 transaction.add(R.id.contFragmets, fragmentCliente);
                 break;
-            case " Mantenimiento":
+            case "Mantenimiento":
                 transaction.add(R.id.contFragmets, fragmentMantenimiento);
                 break;
         }

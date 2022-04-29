@@ -9,13 +9,13 @@
     android:background="@drawable/oxigeno">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text=" "
         android:textAlignment="center"
-        android:textColor="#38783A"
+        android:textColor="#070707"
         android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +32,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/txTitulo" />
 
     <com.getbase.floatingactionbutton.FloatingActionsMenu
         android:id="@+id/floatingActionsMenu"
@@ -52,6 +52,7 @@
             android:layout_height="wrap_content"
             app:fab_colorNormal="#0E1C6C"
             app:fab_icon="@android:drawable/ic_input_add"
+            app:fab_title="Agregar botella"
             android:onClick="onClick"/>
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>

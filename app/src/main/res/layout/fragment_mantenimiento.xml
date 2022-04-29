@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Nuevo Cliente"
+            android:text="Nuevo Mantenimiento"
             android:textSize="30dp"
             android:textColor="@color/black"
             android:textStyle="bold"/>
@@ -27,32 +27,34 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:hint="Identificacion"
+            android:hint="Código de botella"
+            android:textColor="@color/black"
+            android:background="#63363947"
             android:layout_marginTop="10dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:hint="Nombre"
+            android:hint="Fecha"
+            android:background="#63363947"
+            android:textColor="@color/black"
             android:layout_marginTop="10dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:hint="Dirección"
+            android:hint="Descripción"
+            android:background="#63363947"
+            android:textColor="@color/black"
             android:layout_marginTop="10dp"/>
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:hint="Telefono"
-            android:layout_marginTop="10dp"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:hint="Correo electronico"
-            android:layout_marginTop="10dp"/>
+            android:text="agregar"
+            android:textColor="@color/white"
+            android:backgroundTint="#0E1C6C"
+            android:layout_marginTop="100dp"/>
+
 
     </LinearLayout>
 

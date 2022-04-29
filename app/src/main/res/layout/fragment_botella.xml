@@ -27,6 +27,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
+            android:background="#63363947"
+            android:textColor="@color/black"
             android:hint="Codigo de existencia"
             android:layout_marginTop="10dp"/>
         <TextView
@@ -34,19 +36,32 @@
             android:layout_height="wrap_content"
             android:textSize="20dp"
             android:hint="Tamaño"
+            android:background="#63363947"
+            android:textColor="@color/black"
             android:layout_marginTop="10dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
+            android:background="#63363947"
+            android:textColor="@color/black"
             android:hint="Fecha"
             android:layout_marginTop="10dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#63363947"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:hint="Id Cliente"
             android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="agregar"
+            android:textColor="@color/white"
+            android:backgroundTint="#0E1C6C"
+            android:layout_marginTop="100dp"/>
 
 
     </LinearLayout>

@@ -19,14 +19,14 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btnBotellas:
-                bundle.putString("text", " Botella");
+                bundle.putString("text", "Botella");
                 break;
             case R.id.btnClientes:
-                bundle.putString("text", " Cliente");
+                bundle.putString("text", "Cliente");
 
                 break;
             case R.id.btnMant:
-                bundle.putString("text", " Mantenimiento");
+                bundle.putString("text", "Mantenimiento");
 
                 break;
             default: break;

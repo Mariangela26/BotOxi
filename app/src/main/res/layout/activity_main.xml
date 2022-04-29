@@ -6,8 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/oxigeno"
-    android:gravity="center">
+    android:background="@drawable/oxigeno">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/oxi"
+        android:layout_gravity="center"/>
 
     <Button
         android:id="@+id/btnBotellas"
@@ -17,18 +23,23 @@
         android:textSize="30sp"
         android:backgroundTint="#0E1C6C"
         android:textColor="@color/white"
-        android:onClick="onClick"/>
+        android:onClick="onClick"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
 
     <Button
         android:id="@+id/btnMant"
         android:layout_width="350dp"
         android:layout_height="80dp"
         android:text="Mantenimientos"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:layout_marginTop="30dp"
         android:backgroundTint="#0E1C6C"
         android:textColor="@color/white"
-        android:onClick="onClick"/>
+        android:onClick="onClick"
+        android:layout_gravity="center"/>
+
 
     <Button
         android:id="@+id/btnClientes"
@@ -39,5 +50,11 @@
         android:layout_marginTop="30dp"
         android:textColor="@color/white"
         android:backgroundTint="#0E1C6C"
-        android:onClick="onClick"/>
+        android:onClick="onClick"
+        android:layout_gravity="center"/>
+
+
+
+
+
 </androidx.appcompat.widget.LinearLayoutCompat>
