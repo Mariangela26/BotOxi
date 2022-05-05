@@ -16,10 +16,11 @@
         <entry key="..\:/Users/angel/AndroidStudioProjects/BotOxi/app/src/main/res/layout/fragment_cliente.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/angel/AndroidStudioProjects/BotOxi/app/src/main/res/layout/fragment_mantenimiento.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/angel/AndroidStudioProjects/BotOxi/app/src/main/res/layout/list_element.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/mayus/OneDrive/Documentos/GitHub/BotOxi/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
