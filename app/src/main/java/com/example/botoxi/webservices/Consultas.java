@@ -38,6 +38,7 @@ public class Consultas {
                         b.setId_tamanno_botella(json.getString("id_tamanno_botella"));
                         b.setFecha_vencimiento(json.getString("fecha_vencimiento"));
                         Datos.botellas.add(b);
+                        mostrarToast(context,"Actualizado");
                     }catch (JSONException e){
                         mostrarToast(context,"Error en Json");
                     }
@@ -94,6 +95,7 @@ public class Consultas {
                         x.setTelefono(json.getString("telefono"));
                         x.setCorreo(json.getString("correo"));
                         Datos.clientes.add(x);
+                        mostrarToast(context,"Actualizado");
                     }catch (JSONException e){
                         mostrarToast(context,"Error en Json");
                     }
@@ -148,6 +150,7 @@ public class Consultas {
                         h.setId_servicio_historial(json.getString("id_servicio_historial"));
                         h.setFecha_servicio(json.getString("fecha_servicio"));
                         Datos.historial.add(h);
+                        mostrarToast(context,"Actualizado");
                     }catch (JSONException e){
                         mostrarToast(context,"Error en Json");
                     }
@@ -201,6 +204,7 @@ public class Consultas {
                         v.setFecha_venta(json.getString("fecha_venta"));
                         v.setCod_botella_venta(json.getString("cod_botella_venta"));
                         Datos.ventas.add(v);
+                        mostrarToast(context,"Actualizado");
                     }catch (JSONException e){
                         mostrarToast(context,"Error en Json");
                     }

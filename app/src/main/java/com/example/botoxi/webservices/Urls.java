@@ -16,4 +16,7 @@ public class Urls {
     public static final String URLeliminarBotella = "https://sierrazo.online/CRUD_app_oxigeno/eliminar_botella.php";
     public static final String URLeliminarCliente = "https://sierrazo.online/CRUD_app_oxigeno/eliminar_cliente.php";
     public static final String URLeliminarHistorial = "https://sierrazo.online/CRUD_app_oxigeno/eliminar_historial.php";
+    //UPDATES
+    public static final String URLupdateBotella = "https://sierrazo.online/CRUD_app_oxigeno/editar_botella.php";
+    public static final String URLupdateCliente = "https://sierrazo.online/CRUD_app_oxigeno/editar_cliente.php";
 }
